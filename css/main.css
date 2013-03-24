@@ -17,12 +17,18 @@ body
 
 #counter
 {
-  background-color: #333;
+  background-color: #cb4b32;
   color: #eee;
   margin: 2% 5%;
   width: 90%;
   font-weight: bold;
   font-size: 30pt;
-  padding: 5pt;
+  padding: 5pt 0;
   text-align: center;
+}
+
+#dice_dude
+{
+  width: 20%;
+  padding: 0 40%;
 }
