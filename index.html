@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>KONTAKT</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript">
+      var kontakt = new Date(2013, 3, 6, 11, 0, 0);
+
+      setInterval(function()
+      {
+        var time_left = new Date();
+
+        var hours_left = Math.floor(time_left / 3600);
+        time_left -= hourse_left * 3600;
+
+        var minutes_left = Math.floor(time_left / 60);
+        time_left -= minutes_left * 60;
+
+        document.getElementById('counter').innerHTML = hours_left + ' saat ' + minutes_left + ' dakika ' + time_left + ' saniye kaldı';
+      }, 1000);
+    </script>
+  </head>
+  <body>
+
+    <img id="title" src="img/title.png" />
+    <div id="counter"></div>
+
+	</body>
+</html>

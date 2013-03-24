@@ -1,0 +1,28 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: #ccc;
+}
+
+#title
+{
+  margin: 2% 5%;
+  width: 90%;
+}
+
+#counter
+{
+  background-color: #333;
+  color: #eee;
+  margin: 2% 5%;
+  width: 90%;
+  font-weight: bold;
+  font-size: 34pt;
+  padding: 10pt;
+  text-align: center;
+}
