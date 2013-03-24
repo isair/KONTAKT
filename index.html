@@ -10,15 +10,15 @@
 
       setInterval(function()
       {
-        var time_left = new Date();
+        var time_left = Math.round(kontakt.getTime() - new Date().getTime()) / 1000;
 
         var hours_left = Math.floor(time_left / 3600);
-        time_left -= hourse_left * 3600;
+        time_left -= hours_left * 3600;
 
         var minutes_left = Math.floor(time_left / 60);
         time_left -= minutes_left * 60;
 
-        document.getElementById('counter').innerHTML = hours_left + ' saat ' + minutes_left + ' dakika ' + time_left + ' saniye kaldı';
+        document.getElementById('counter').innerHTML = hours_left + ' saat ' + minutes_left + ' dakika ' + Math.floor(time_left) + ' saniye kaldı';
       }, 1000);
     </script>
   </head>
