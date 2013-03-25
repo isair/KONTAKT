@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.barissencan.KONTAKT"
+        version   = "1.1">
+
+  <name>KONTAKT</name>
+
+  <description>
+    Resmi KONTAKT 3 geri sayım uygulaması.
+  </description>
+
+  <author href="http://www.barissencan.com" email="barissncn@gmail.com">
+    Barış Şencan
+  </author>
+
+  <icon src="img/icons/icon.png" />
+  <!--
+  <icon src="img/icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+  <icon src="img/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+  <icon src="img/icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+  <icon src="img/icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+  <icon src="img/icons/blackberry/icon-80.png" gap:platform="blackberry" />
+  <icon src="img/icons/blackberry/icon-80.png" gap:platform="blackberry" gap:state="hover"/>
+  -->
+  <icon src="img/icons/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+  <icon src="img/icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+  <icon src="img/icons/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+  <icon src="img/icons/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+  <!--
+  <icon src="img/icons/webos/icon-64.png" gap:platform="webos" />
+  <icon src="img/icons/windows-phone/icon-48.png" gap:platform="winphone" />
+  <icon src="img/icons/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />
+  -->
+
+</widget>
