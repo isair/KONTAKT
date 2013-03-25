@@ -16,6 +16,8 @@
     Barış Şencan
   </author>
 
+  <preference name="prerendered-icon" value="true" />
+
   <icon src="img/icons/icon.png" />
   <!--
   <icon src="img/icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
